@@ -16,7 +16,7 @@ const PhotoComments = (props) => {
           </li>
         ))}
       </ul>
-      {login && <PhotoCommentsForm id={props.id} />}
+      {login && <PhotoCommentsForm id={props.id} setComments={setComments} />}
     </>
   );
 };
