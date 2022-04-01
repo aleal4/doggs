@@ -10,7 +10,7 @@ const Header = () => {
   return (
     <header className={styles.header}>
       <nav className={`${styles.nav} container`}>
-        <Link className={styles.logo} to="/" aria-label="Doggs - Home">
+        <Link className={styles.logo} to="/doggs/" aria-label="Doggs - Home">
           <Dogs />
         </Link>
         {data ? (
